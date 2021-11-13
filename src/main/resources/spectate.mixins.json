@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sh.damon.spectate.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CommandManagerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
